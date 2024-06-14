@@ -1,14 +1,9 @@
-/* styles.css */
-
-/* Basic body styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
     background-color: #f4f4f4;
 }
-
-/* Header styling */
 .main-header {
     font-size: 2em;
     color: #333;
@@ -16,16 +11,12 @@ body {
     margin: 20px 0;
     position: relative;
 }
-
-/* Paragraph styling */
 .intro-paragraph {
     font-size: 1.2em;
     color: #666;
     margin: 20px 0;
     position: relative;
 }
-
-/* Button styling */
 .cta-button {
     display: inline-block;
     padding: 10px 20px;
@@ -37,7 +28,6 @@ body {
     position: relative;
     margin: 10px 0;
 }
-/* Header pseudo-elements */
 .main-header::before,
 .main-header::after {
     content: "★";
@@ -51,12 +41,9 @@ body {
 .main-header::before {
     left: -30px;
 }
-
 .main-header::after {
     right: -30px;
 }
-
-/* Paragraph pseudo-elements */
 .intro-paragraph::before,
 .intro-paragraph::after {
     content: '"';
@@ -65,16 +52,12 @@ body {
     position: absolute;
     top: 0;
 }
-
 .intro-paragraph::before {
     left: -20px;
 }
-
 .intro-paragraph::after {
     right: -20px;
 }
-
-/* Button pseudo-elements */
 .cta-button::before,
 .cta-button::after {
     content: "👉";
@@ -83,15 +66,12 @@ body {
     top: 50%;
     transform: translateY(-50%);
 }
-
 .cta-button::before {
     left: -25px;
 }
-
 .cta-button::after {
     right: -25px;
 }
-/* Button hover effect */
 .cta-button:hover {
     background-color: #0056b3;
 }
